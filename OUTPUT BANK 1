@@ -13,3 +13,22 @@ Balance: RM 1260.0
 Enter the amount you want to withdraw : 
 200
 Your current balance : 1060.0
+
+
+
+Enter your account number : 
+12345
+Enter your name : 
+zurin
+Enter your account type : 
+saving account
+Enter your balance : 
+1260
+Name of account holder: zurin
+Account no.: 12345
+Account type: saving account
+Balance: RM 1260.0
+Enter the amount you want to withdraw : 
+1300
+Your balance is less than 1300.0
+Transaction failed!
