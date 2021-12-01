@@ -1,3 +1,41 @@
-Enter your size (US) : 44
-Large
-Size: 44
+package selfProgramming;
+import java.util.Scanner;
+public class Size1 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner sc = new Scanner(System.in);
+		int size;
+		System.out.print("Enter your size (US) : ");
+		size = sc.nextInt();
+
+		    switch (size) {
+
+		      case 29:
+		        System.out.println("Small");
+		        break;
+
+		      case 42:
+		    	  System.out.println( "Medium");
+		        break;
+
+		      case 44:
+		    	  System.out.println("Large");
+		        break;
+
+		      case 48:
+		    	  System.out.println("Extra Large");
+		        break;
+		      
+		      default:
+		    	  System.out.println("Invalid size.");
+		        break;
+
+		    }
+		    System.out.println("Size: " + size);
+
+
+	}
+
+}
+
