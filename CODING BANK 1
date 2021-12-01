@@ -1,0 +1,50 @@
+package selfProgramming;
+import java.util.Scanner;
+public class Bank1 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner sc = new Scanner(System.in);
+		
+		String accNo;
+		String name;
+		String accType;
+		double balance;
+		
+		System.out.println("Enter your account number : ");
+		accNo= sc.nextLine();
+		
+		System.out.println("Enter your name : ");
+		name= sc.nextLine();
+		
+		System.out.println("Enter your account type : ");
+		accType= sc.nextLine();
+		
+		System.out.println("Enter your balance : ");
+		balance= sc.nextDouble();
+		
+		System.out.println("Name of account holder: " + name);  
+		
+        System.out.println("Account no.: " + accNo);
+        
+        System.out.println("Account type: " + accType);
+        
+        System.out.println("Balance: RM " + balance);  
+        
+        double amount;
+        System.out.println("Enter the amount you want to withdraw : ");
+		amount= sc.nextDouble();
+		
+		if(balance >= amount) {
+			
+			balance= balance-amount;
+			System.out.println("Your current balance : " + balance);
+			
+		}else {
+			System.out.println("Your balance is less than " + amount + "\t Transaction failed!");
+			
+		}
+
+	}
+
+}
