@@ -41,7 +41,7 @@ public class Bank1 {
 			System.out.println("Your current balance : " + balance);
 			
 		}else {
-			System.out.println("Your balance is less than " + amount + "\t Transaction failed!");
+			System.out.println("Your balance is less than " + amount + "\nTransaction failed!");
 			
 		}
 
