@@ -1,0 +1,40 @@
+package selfProgramming;
+import java.util.Scanner;
+public class TicketPrice {
+
+	public static void main(String[] args) {
+		// calculate total ticket price for a family
+		Scanner sc = new Scanner(System.in);
+		int numAdult;
+		int numChildren;
+		double totalPrice;
+		int totalPerson;
+		double checkIn,checkOut, duration;
+		
+		System.out.println("Welcome to Ghost Museum Melaka");
+		
+		System.out.println("Enter number of adult : ");
+		numAdult = sc.nextInt();
+		
+		System.out.println("Enter number of children : ");
+		numChildren = sc.nextInt();
+		
+		System.out.println("Enter check in time : ");
+		checkIn = sc.nextDouble();
+		
+		System.out.println("Enter check out time : ");
+		checkOut = sc.nextDouble();
+		
+		totalPerson = numAdult + numChildren;
+		System.out.println("Total person per family : " + totalPerson);
+		
+		totalPrice= (numAdult * 18.50) + (numChildren * 12.50);
+		System.out.println("Total ticket price :RM " + totalPrice);
+		
+		duration= checkOut-checkIn;
+		System.out.println("Total duration time : " + duration);
+		
+
+	}
+
+}
