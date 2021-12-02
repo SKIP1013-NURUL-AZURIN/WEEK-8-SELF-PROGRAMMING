@@ -32,7 +32,7 @@ public class TicketPrice {
 		System.out.println("Total ticket price :RM " + totalPrice);
 		
 		duration= checkOut-checkIn;
-		System.out.println("Total duration time : " + duration);
+		System.out.println("Total duration time : " + duration + "hr");
 		
 
 	}
