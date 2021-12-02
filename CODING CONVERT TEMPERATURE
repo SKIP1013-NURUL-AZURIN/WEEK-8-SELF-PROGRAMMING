@@ -1,0 +1,15 @@
+package selfProgramming;
+import java.util.Scanner;
+public class Temperature1 {
+
+	public static void main(String[] args) {
+		// convert the temperature value in Fahrenheit(F) to degree celsius (C) .
+		Scanner sc = new Scanner(System.in);
+		System.out.println("Enter temperature in Fahrenheit : ");
+		double Fahrenheit = sc.nextDouble();
+		double celsius = ((5*(Fahrenheit - 32.0)) / 9.0);
+		System.out.printf("Temperature in Fahrenheit : " + Fahrenheit + "\nTemperature in degree Celsius : %.2f" , celsius);
+
+	}
+
+}
